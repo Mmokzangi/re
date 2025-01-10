@@ -255,7 +255,7 @@
             function launchFireworks() {
                 let x = Math.random() * canvas.width;
                 let y = Math.random() * canvas.height;
-                for (let i = 0; i < 570; i++) {
+                for (let i = 0; i < 560; i++) {
                     particles.push(new Firework(x, y));
                 }
             }
@@ -269,7 +269,7 @@
                 requestAnimationFrame(update);
             }
 
-            fireworkInterval = setInterval(launchFireworks, `135);
+            fireworkInterval = setInterval(launchFireworks, 150);
             setTimeout(() => clearInterval(fireworkInterval), 1300); // توقف بعد 1.5 ثوانٍ
             update();
         }
@@ -313,7 +313,7 @@
     </p>
 
         <img src="WhatsApp Image 2025-01-10 at 16.50.38_736c86c5.jpg" alt="صورة المعايدة">
-    <h1>1002793893706</h1>
+    <h2>1002793893706</h2>
     <p> <button id="closeCardButton" class="close-btn">إغلاق</button></p>
     </div>
 
