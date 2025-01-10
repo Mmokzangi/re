@@ -255,7 +255,7 @@
             function launchFireworks() {
                 let x = Math.random() * canvas.width;
                 let y = Math.random() * canvas.height;
-                for (let i = 0; i < 600; i++) {
+                for (let i = 0; i < 570; i++) {
                     particles.push(new Firework(x, y));
                 }
             }
@@ -269,8 +269,8 @@
                 requestAnimationFrame(update);
             }
 
-            fireworkInterval = setInterval(launchFireworks, 70);
-            setTimeout(() => clearInterval(fireworkInterval), 1500); // توقف بعد 1.5 ثوانٍ
+            fireworkInterval = setInterval(launchFireworks, `135);
+            setTimeout(() => clearInterval(fireworkInterval), 1300); // توقف بعد 1.5 ثوانٍ
             update();
         }
     </script>
